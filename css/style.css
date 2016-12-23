@@ -1,0 +1,40 @@
+html {
+  font-family: 'Bitter', serif;
+  color: #FAFAFA;
+}
+.background {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('../images/flower.jpg') center no-repeat fixed;
+  background-size: 100%;
+}
+
+.background h1 {
+  display: block;
+  font-size: 20vh;
+}
+
+/*.background h3 {
+  display: block;
+  position: absolute;
+  bottom: 10vh;
+  font-style: italic;
+}*/
+
+.background a {
+  /*display: block;*/
+  position: absolute;
+  bottom: 15vh;
+}
+
+.instagram {
+  /*position: absolute;*/
+  /*bottom: 10vh;*/
+  background: url('../images/insta.png') center no-repeat;
+  height: 60px;
+  width: 60px;
+  background-size: 100%;
+}
